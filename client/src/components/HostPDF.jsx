@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { BeatLoader } from "react-spinners";
 const HostPDF = () => {
-  const URL = "http://localhost:8000";
+  const URL = "https://pdf-hosting-platform.onrender.com";
   const [selectedFile, setSelectedFile] = useState(null);
   const [downloadLink, setDownloadLink] = useState();
   const [isLoading, setIsloading] = useState("");
