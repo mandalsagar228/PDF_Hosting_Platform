@@ -1,4 +1,4 @@
-const url = "http://localhost:8000";
+const url = "https://pdf-hosting-platform.onrender.com";
 import mongoose, { mongo } from "mongoose";
 
 import Grid from "gridfs-stream";
