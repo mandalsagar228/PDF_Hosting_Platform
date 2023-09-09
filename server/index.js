@@ -32,3 +32,6 @@ const startServer = () => {
   });
 };
 startServer();
+app.get("/", (req, res) => {
+  res.send("Connected to the server");
+});
